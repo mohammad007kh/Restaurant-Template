@@ -1,0 +1,12 @@
+.normal-margin-top {
+    margin-top: 20px;
+}
+
+#register {
+    margin-bottom: 20px;
+}
+.removeItem, .addItem{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}

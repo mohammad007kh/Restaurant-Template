@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>اطلاعات غذا</title>
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="Images/Pizza-PNG-Image.png"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/footer-header.css" />
+    <link rel="stylesheet" href="css/ask-contact.css" />
+  </head>
+
+  <body>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="container ask-panel">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <a id="exit-panel" href="">X</a>
+
+            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+              <h3 class="panel-title">سوالات خود رو بپرسید...</h3>
+            </div>
+          </div>
+
+          <div class="panel panel-info">
+            <div class="panel-body chat-area">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  سلام، خرابه هنوز
+                </li>
+                <li class="list-group-item active">اپراتور</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه درستش کردم
+                </li>
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه، هنوز خرابه
+                </li>
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه، هنوز خرابه
+                </li>
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه، هنوز خرابه
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form method="POST" action="">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  ارسال
+                </button>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="متن خود را وارد کنید..."
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a class="ask-contact" href="">?</a>
+    </div>
+
+    <div id="header">
+      <img src="Images/Pizza-PNG-Image.png" alt="Title Pizza Title" />
+      <p>Mamad Pizza</p>
+    </div>
+
+    <div id="mainBody">
+      <ul id="titleNavbar">
+        <li><a href="Index.html">خانه</a></li>
+        <li><a href="RegisterOrder.html">ثبت سفارش</a></li>
+        <li><a href="FollowOrder.html">پیگیری سفارش</a></li>
+        <li><a href="LoginOrRegister.html">ورود/خروج</a></li>
+      </ul>
+
+      <section class="container">
+        <img
+          class="center-block img-responsive"
+          src="Images/Pizza-PNG-Image.png"
+          alt="image of the food"
+        />
+
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">توضیحات</h3>
+          </div>
+          <div class="panel-body">
+            فر را با حرارت 200 درجه سانتی گراد روشن کنید تا گرم شود.سپس برای
+            درست کردن پیتزا بایدسس پیتزا را درست کنید که برای اینکار باید در یک
+            تابه مقداری روغن بریزید و پیاز های رنده شده را داخل روغن داغ شده تفت
+            دهید تا طلایی رنگ شود. به پیاز تفت داده شده رب گوجه فرنگی و گوجه
+            فرنگی رنده شده را اضافه کنید و تفت دهید. سیب زمینی پخته شده را له
+            کنید و به سس تفت داده شده اضافه کنید و مقداری نمک و فلفل روی آن
+            بپاشید.
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <form class="row" action="" method="post">
+          <div
+            class="Margin-bottom-normal normal-margin-top col-xs-12 col-sm-12 col-md-12 col-lg-6"
+          >
+            <label for="">نام</label>
+            <input class="form-control" type="text" name="Name" id="" />
+          </div>
+          <div
+            class="Margin-bottom-normal normal-margin-top col-xs-12 col-sm-12 col-md-12 col-lg-6"
+          >
+            <label for="">ایمیل</label>
+            <input class="form-control" type="email" name="Email" id="" />
+          </div>
+
+          <div
+            class="Margin-bottom-normal normal-margin-top col-xs-12 col-sm-12 col-md-12 col-lg-12"
+          >
+            <label for="">نظر شما</label>
+            <textarea
+              class="form-control"
+              name="CommentMessage"
+              id=""
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div class="Margin-bottom-normal normal-margin-top align-center">
+            <input class="btn-lg btn-success" type="submit" value="ثبت نظر" />
+          </div>
+
+          <div
+            class="col-xs-12 col-sm-12 col-md-6 col-lg-6 Margin-bottom-normal align-center"
+          >
+            <input type="radio" name="total-comment" value="کلا بد بود" id="" />
+            <br />کلا خوب بود
+          </div>
+
+          <div
+            class="col-xs-12 col-sm-12 col-md-6 col-lg-6 Margin-bottom-normal align-center"
+          >
+            <input
+              type="radio"
+              name="total-comment"
+              value="کلا خوب بود"
+              id=""
+            />
+            <br />کلا بد بود
+          </div>
+        </form>
+      </div>
+
+      <section class="container">
+        <div class="well well-lg">
+          <h2>نظر مردم :</h2>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">محمد</h3>
+            </div>
+            <div class="panel-body">
+              خیلی پیتزای باحالیه، حتما امتحان کنید
+            </div>
+          </div>
+
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">علی</h3>
+            </div>
+            <div class="panel-body">
+              خیلی بد بود، دوست نداشتم
+            </div>
+          </div>
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">محمود</h3>
+            </div>
+            <div class="panel-body">
+              خیلی پیتزای باحالیه، حتما امتحان کنید
+            </div>
+          </div>
+
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">سارا</h3>
+            </div>
+            <div class="panel-body">
+              کلا به نظرم بی مزه بود
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div style="visibility: hidden">
+        divider
+      </div>
+
+      <div id="footer">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 container">
+          <a href="">ارتباط با ما</a>
+          <br />
+          <a href="">تماس با ما</a>
+        </div>
+      </div>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/ask-contact.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

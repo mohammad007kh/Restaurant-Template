@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>صفحه اصلی</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="Images/Pizza-PNG-Image.png"
+    />
+    <link rel="stylesheet" href="css/footer-header.css" />
+    <link rel="stylesheet" href="css/Login-Register.css" />
+    <link rel="stylesheet" href="css/ask-contact.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+  </head>
+
+  <body>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="container ask-panel">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <a id="exit-panel" href="">X</a>
+
+            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+              <h3 class="panel-title">سوالات خود رو بپرسید...</h3>
+            </div>
+          </div>
+
+          <div class="panel panel-info">
+            <div class="panel-body chat-area">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  سلام، خرابه هنوز
+                </li>
+                <li class="list-group-item active">اپراتور</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه درستش کردم
+                </li>
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه، هنوز خرابه
+                </li>
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه، هنوز خرابه
+                </li>
+                <li class="list-group-item active">محمد</li>
+                <li class="list-group-item disabled" aria-disabled="true">
+                  نه، هنوز خرابه
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form method="POST" action="">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  ارسال
+                </button>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="متن خود را وارد کنید..."
+              />
+            </div>
+            <!-- /input-group -->
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a class="ask-contact" href="">?</a>
+    </div>
+
+    <div class="main-page">
+      <div id="header">
+        <img src="Images/Pizza-PNG-Image.png" alt="Title Pizza image" />
+        <p>Mamad Pizza</p>
+      </div>
+
+      <div id="mainBody">
+        <ul id="titleNavbar">
+          <li><a href="Index.html">خانه</a></li>
+          <li><a href="RegisterOrder.html">ثبت سفارش</a></li>
+          <li><a href="FollowOrder.html">پیگیری سفارش</a></li>
+          <li>
+            <a class="item-activated" href="LoginOrRegister.html">ورود/خروج</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+        <div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">ورود / ثبت نام</h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <form action="" method="post">
+                  <label for="">ایمیل یا شماره تلفن</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id=""
+                    aria-describedby="helpId"
+                    placeholder="ایمیل خود را وارد کنید"
+                  />
+                  <small id="helpId" class="form-text text-muted"
+                    >مثل : mohammad@gmail.com</small
+                  >
+                  <br /><br />
+                  <label for="">رمز عبور</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    name=""
+                    id=""
+                    aria-describedby="helpId"
+                    placeholder="رمز عبور خودرا وارد کنید"
+                  />
+                  <br />
+                  <button type="submit" class="center-block btn-lg btn-primary">
+                    ورود / ثبت نام
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+      </div>
+    </div>
+
+    <div style="visibility: hidden">
+      divider
+    </div>
+    <div id="footer">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 container">
+        <a href="">ارتباط با ما</a>
+        <br />
+        <a href="">تماس با ما</a>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/ask-contact.js"></script>
+  </body>
+</html>

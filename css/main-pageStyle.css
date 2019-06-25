@@ -1,0 +1,39 @@
+.listTitle {
+    text-align: center;
+    width: 50%;
+}
+
+.listTitle p {
+    margin-right: 35%;
+    margin-left: 35%;
+    color: white;
+    background-color: red;
+    border-radius: 20%;
+}
+
+.foodDes {
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+#table-foodlist tr td dl a:link, #table-foodlist tr td dl a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.thumbPic {
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+}
+
+.thumbPic:hover {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    transition-duration: 1s;
+    color: black;
+    font-size: 20px;
+}

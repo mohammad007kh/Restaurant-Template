@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.ask-contact {
+    z-index: 9999;
+    background-color: rgba(255, 217, 0, 0.5);
+    background-image: linear-gradient( rgba(255, 0, 0, 0.473), rgba(255, 217, 0, 0.5));
+    color: rgba(255, 0, 0, 0.877);
+    padding: 20px;
+    padding-right: 27px;
+    padding-left: 27px;
+    margin: 20px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 0;
+    left: -100px;
+    text-decoration: none;
+    text-decoration-color: none;
+    font-weight: bold;
+}
+
+.ask-contact:hover {
+    background-color: rgb(175, 149, 2);
+    background-image: linear-gradient(rgba(255, 0, 0), rgba(255, 217, 0));
+    color: rgba(255, 0, 0);
+    animation-duration: 1s;
+}
+
+.ask-panel {
+    position: fixed;
+    z-index: 100;
+    visibility: hidden;
+}
+
+.ask-panel .panel-body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.ask-panel .chat-area {
+    max-height: 300px;
+}
